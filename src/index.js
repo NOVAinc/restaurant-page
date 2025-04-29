@@ -1,19 +1,11 @@
 import "./styles.css";
-import bfgImage from "./assets/page-background-landing.jpg";
+import loadHomepage from "./loadhomepage.js";
 
-console.log(typeof bfgImage);
+console.log(typeof restaurant);
 
-let container = document.getElementById("content");
+loadHomepage();
 
-// Assign on-click behavior to buttons
-document.getElementById("company").addEventListener("click", () => {
-  let contents = `
-  <img src=${bfgImage} id="bfg-bg">
-  <p>Battle for Greece</p>
-  `;
-
-  container.innerHTML = contents;
-});
+document.getElementById("company");
 document.getElementById("projects");
 document.getElementById("jobs");
 document.getElementById("about");
