@@ -13,3 +13,13 @@ button {
   max-width: 100%;
   padding: 25px;
 }
+
+.menu-entry {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-photo {
+  width: 25%;
+  margin: 10px;
+}

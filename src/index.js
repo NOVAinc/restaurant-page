@@ -1,11 +1,12 @@
 import "./styles.css";
-import loadHomepage from "./loadhomepage.js";
+import loadMenu from "./menu.js";
+import loadContact from "./contact.js";
+import loadHome from "./home.js";
 
 console.log(typeof restaurant);
 
-loadHomepage();
+loadHome();
 
-document.getElementById("company");
-document.getElementById("projects");
-document.getElementById("jobs");
-document.getElementById("about");
+document.getElementById("home").addEventListener("click", loadHome);
+document.getElementById("menu").addEventListener("click", loadMenu);
+document.getElementById("contact").addEventListener("click", loadContact);
