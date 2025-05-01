@@ -3,8 +3,6 @@ import loadMenu from "./menu.js";
 import loadContact from "./contact.js";
 import loadHome from "./home.js";
 
-console.log(typeof restaurant);
-
 loadHome();
 
 document.getElementById("home").addEventListener("click", loadHome);
